@@ -25,7 +25,7 @@ func (t *TemplateData) DoesExist(field string) bool {
 
 // RunTemplate will run a template and output to the io writer passed as third parameter
 func RunTemplate(name string, data interface{}, w http.ResponseWriter) {
-	tmpl, err := template.ParseFiles(tmplDirectory + name + ".html")
+	tmpl, err := template.ParseFiles(tmplDirectory + name)
 	if err != nil {
 		fmt.Println("Error Occured!")
 		fmt.Println(err)
