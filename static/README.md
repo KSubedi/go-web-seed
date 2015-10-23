@@ -1,0 +1,1 @@
+This is where all the static files go. Anything on the public directory will be available from the root of the webserver. For example, if there is a file in public directory called style.css, and the webserver is running at http://localhost:3000/, the style.css file will be accessible via http://localhost:3000/style.css

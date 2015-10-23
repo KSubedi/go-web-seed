@@ -1,0 +1,1 @@
+This is where all the controllers will go. Check homepage.go for an example. Controllers are just simple methods that comply with http.Handler.

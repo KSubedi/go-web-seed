@@ -1,0 +1,1 @@
+This is where the middlewares go. Check the logger.go file for example.  Middlewares are structs that have a ServeHTTP method.

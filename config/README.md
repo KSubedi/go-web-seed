@@ -1,0 +1,1 @@
+This is where the configuration files will go. By default, the config.go file holds some simple configurations like the webserver port etc.

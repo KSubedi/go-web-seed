@@ -1,0 +1,1 @@
+This folder is where all the core utitities go. By default there is a router that is based on gorilla mux that supports middlewares, sessions based on gorilla sessions and a wrapper for templates.
