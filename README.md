@@ -14,5 +14,6 @@ Getting started with go-web-seed is easy.  Just clone the repository and you are
 
     go get -u https://github.com/ksubedi/go-web-seed
     cd $GOPATH/src/github.com/ksubedi/go-web-seed
+    go get -u
 
 Then you can edit the routes on routes.go file, edit configuration at config.go & add controllers and middlewares at their respective folders.
