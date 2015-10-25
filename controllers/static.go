@@ -40,7 +40,6 @@ func (s *Static) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		} else {
 
 			//Find mimetype and set the header to that
-			// mimeType := http.DetectContentType(fileData)
 			ext := path.Ext(filePath)
 			mimeType := mime.TypeByExtension(ext)
 
