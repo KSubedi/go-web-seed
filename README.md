@@ -10,7 +10,7 @@ go-web-seed
 Getting Started
 -------------
 
-Getting started with go-web-seed is easy.  Just clone the repository and you are ready to start building. You might want to change the "imports" to match the name of the new package if you rename the project. Here is how to get started:
+Getting started with go-web-seed is easy.  Just clone the repository and you are ready to start building. You might want to change the "imports" to match the name of the new package if you rename the project. You can use my utility [gomove](https://github.com/KSubedi/gomove) to do that automatically. Here is how to get started:
 
     go get -u github.com/ksubedi/go-web-seed
     cd $GOPATH/src/github.com/ksubedi/go-web-seed
